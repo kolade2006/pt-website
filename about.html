@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | Praise Tabernacle RCCG Ogombo</title>
+
+    <meta
+        name="description"
+        content="Learn about Praise Tabernacle, a parish of the Redeemed Christian Church of God in Ogombo, Lagos."
+    >
+
+    <meta name="theme-color" content="#172A45">
+
+    <meta property="og:title" content="About Us | Praise Tabernacle">
+    <meta
+        property="og:description"
+        content="Discover Praise Tabernacle, RCCG Ogombo, Lagos."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image%20copy.png">
+
+    <link rel="icon" type="image/png" href="./image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- SOCIAL MEDIA BAR -->
+    <div class="social-bar">
+        <div class="social-container">
+
+            <p>Connect with us</p>
+
+            <div class="social-links">
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on YouTube"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
+                    </svg>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/rccgpraise_tabernacle?rpxt=cnludXM5azhka2R0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on Instagram"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"/>
+                    </svg>
+                </a>
+
+                <a
+                    href="https://www.facebook.com/rccgptogombo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on Facebook"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V4a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a href="homepage.html" class="brand">
+                <img
+                    src="./image.png"
+                    alt="Redeemed Christian Church of God logo"
+                    class="church-logo"
+                >
+
+                <div class="brand-text">
+                    <h1>Praise Tabernacle</h1>
+                    <span>RCCG Ogombo, Lagos</span>
+                </div>
+            </a>
+
+            <!-- MOBILE MENU TOGGLE -->
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- MAIN NAVIGATION -->
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+
+                <a href="homepage.html" class="nav-link">Home</a>
+
+                <a href="about.html" class="nav-link active" aria-current="page">About</a>
+
+                <div class="nav-dropdown-wrap">
+                    <button
+                        class="nav-link nav-dropdown-toggle"
+                        type="button"
+                        aria-expanded="false"
+                        aria-controls="watch-events-dropdown"
+                        aria-haspopup="true"
+                    >
+                        <span>Watch &amp; Events</span>
+                        <svg class="nav-dropdown-chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <div class="nav-dropdown" id="watch-events-dropdown">
+                        <a href="watch-events.html">Watch &amp; Events Overview</a>
+                        <a href="watch-events.html#watch-online">Watch Online</a>
+                        <a href="watch-events.html#catch-up">Catch Up</a>
+                        <a href="watch-events.html#service-schedule">Service Schedule</a>
+                        <a href="watch-events.html#upcoming-events">Upcoming Events</a>
+                    </div>
+                </div>
+
+                <a href="contacts.html" class="nav-link">Contact</a>
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    class="nav-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Watch Live
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ABOUT HERO -->
+        <section class="about-hero">
+
+            <img
+                src="./image copy.png"
+                alt="A congregation gathered together in worship"
+                class="about-hero-image"
+            >
+
+            <div class="about-hero-overlay"></div>
+
+            <div class="about-hero-content">
+
+                <p class="section-label">GET TO KNOW US</p>
+
+                <h2>About Praise Tabernacle</h2>
+
+                <p>
+                    A place of worship, prayer, faith and fellowship.
+                </p>
+
+                <div class="breadcrumb">
+                    <a href="homepage.html">Home</a>
+                    <span>/</span>
+                    <span>About Us</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHO WE ARE -->
+        <section class="about-intro">
+
+            <div class="section-container about-intro-grid">
+
+                <div class="about-intro-image">
+
+                    <img
+                        src="./image copy.png"
+                        alt="Members of a church congregation worshipping together"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="about-intro-text">
+
+                    <p class="section-label">WHO WE ARE</p>
+
+                    <h2>
+                        Welcome to
+                        <span>Praise Tabernacle</span>
+                    </h2>
+
+                    <p>
+                        Praise Tabernacle is a parish of the Redeemed
+                        Christian Church of God located in Ogombo,
+                        Lagos, Nigeria.
+                    </p>
+
+                    <p>
+                        We are a church community centred on the worship
+                        of God, prayer, the teaching of His Word and
+                        fellowship among believers.
+                    </p>
+
+                    <p>
+                        Our desire is to provide a welcoming environment
+                        where people can come together in faith, grow
+                        spiritually and build a relationship with God.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MISSION AND VISION -->
+        <section class="mission-section">
+
+            <div class="section-container">
+
+                <div class="about-section-heading">
+
+                    <p class="section-label">OUR PURPOSE</p>
+
+                    <h2>What Guides Us</h2>
+
+                    <p>
+                        Our mission and vision statements will be
+                        presented here using the church's approved
+                        wording.
+                    </p>
+
+                </div>
+
+
+                <div class="mission-grid">
+
+                    <article class="mission-card">
+
+                        <div class="mission-icon" aria-hidden="true">
+                            ✦
+                        </div>
+
+                        <h3>Our Mission</h3>
+
+                        <p>
+                            The official mission statement of Praise
+                            Tabernacle will be added here.
+                        </p>
+
+                    </article>
+
+
+                    <article class="mission-card">
+
+                        <div class="mission-icon" aria-hidden="true">
+                            ◈
+                        </div>
+
+                        <h3>Our Vision</h3>
+
+                        <p>
+                            The official vision statement of Praise
+                            Tabernacle will be added here.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEET OUR PASTORS -->
+        <!--
+            PROFILE PLACEHOLDERS
+            Replace each .pastor-photo-placeholder with:
+                <img src="pastor-name.jpg" alt="Pastor's name">
+            Replace the name and biography text with the approved wording.
+        -->
+        <section class="pastors-section">
+
+            <div class="section-container">
+
+                <h2 class="pastors-heading">Meet Our Pastors</h2>
+
+
+                <div class="pastor-list">
+
+                    <!-- PASTOR -->
+                    <article class="pastor-profile">
+
+                        <div class="pastor-photo">
+                            <div class="pastor-photo-placeholder" role="img" aria-label="Placeholder for the Pastor's photograph">
+                                <span class="pastor-photo-icon" aria-hidden="true">✦</span>
+                                <span>Pastor's photo to be added</span>
+                            </div>
+                        </div>
+
+                        <div class="pastor-details">
+                            <p class="pastor-role">PASTOR</p>
+                            <h3>Pastor's name to be added</h3>
+                            <p>
+                                A short biography of the Pastor will be added here.
+                                Include his background, ministry focus and a warm
+                                welcome to the church family.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PASTOR'S WIFE -->
+                    <article class="pastor-profile">
+
+                        <div class="pastor-photo">
+                            <div class="pastor-photo-placeholder" role="img" aria-label="Placeholder for the Pastor's Wife's photograph">
+                                <span class="pastor-photo-icon" aria-hidden="true">✦</span>
+                                <span>Pastor's Wife's photo to be added</span>
+                            </div>
+                        </div>
+
+                        <div class="pastor-details">
+                            <p class="pastor-role">PASTOR'S WIFE</p>
+                            <h3>Name to be added</h3>
+                            <p>
+                                A short biography of the Pastor's Wife will be added
+                                here. Include her background, ministry focus and the
+                                areas of church life she supports.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- ASSISTANT PASTOR -->
+                    <article class="pastor-profile">
+
+                        <div class="pastor-photo">
+                            <div class="pastor-photo-placeholder" role="img" aria-label="Placeholder for the Assistant Pastor's photograph">
+                                <span class="pastor-photo-icon" aria-hidden="true">✦</span>
+                                <span>Assistant Pastor's photo to be added</span>
+                            </div>
+                        </div>
+
+                        <div class="pastor-details">
+                            <p class="pastor-role">ASSISTANT PASTOR</p>
+                            <h3>Assistant Pastor's name to be added</h3>
+                            <p>
+                                A short biography of the Assistant Pastor will be
+                                added here. Include his background, ministry focus
+                                and the areas of church life he supports.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WELCOME MESSAGE -->
+        <section class="about-welcome">
+
+            <div class="section-container about-welcome-content">
+
+                <p class="section-label">YOU ARE WELCOME HERE</p>
+
+                <h2>Find a Place to Belong</h2>
+
+                <p>
+                    Whether you are visiting for the first time or
+                    searching for a church family, we would be glad
+                    to welcome you to Praise Tabernacle.
+                </p>
+
+                <a href="contacts.html" class="button button-gold">
+                    Get in Touch
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="section-container footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-brand-identity">
+
+                    <img
+                        src="./image.png"
+                        alt=""
+                        class="footer-logo"
+                        loading="lazy"
+                    >
+
+                    <div>
+                        <h2>Praise Tabernacle</h2>
+                        <p>RCCG Ogombo, Lagos</p>
+                    </div>
+
+                </div>
+
+                <!--
+                    CHURCH ADDRESS PLACEHOLDER
+                    Replace the two lines below with the confirmed church address.
+                -->
+                <address class="footer-address">
+                    <span class="footer-address-icon" aria-hidden="true">⌖</span>
+                    <span>
+                        Ogunremi Street, Ogombo,<br>
+                        Eti-Osa, Lagos, Nigeria.
+                    </span>
+                </address>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="homepage.html">Home</a>
+                <a href="about.html" class="active" aria-current="page">About</a>
+                <a href="watch-events.html">Watch &amp; Events</a>
+                <a href="contacts.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Connect With Us</h3>
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    YouTube
+                </a>
+
+                <a
+                    href="https://www.instagram.com/rccgpraise_tabernacle?rpxt=cnludXM5azhka2R0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
+
+                <a
+                    href="https://www.facebook.com/rccgptogombo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="current-year"></span>
+                Praise Tabernacle, RCCG Ogombo. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

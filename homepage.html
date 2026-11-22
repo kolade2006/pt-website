@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Praise Tabernacle | RCCG Ogombo, Lagos</title>
+
+    <meta
+        name="description"
+        content="Welcome to Praise Tabernacle, a parish of the Redeemed Christian Church of God in Ogombo, Lagos. Join us for worship, prayer and fellowship."
+    >
+
+    <meta name="theme-color" content="#172A45">
+
+    <!-- Open Graph metadata for social media sharing -->
+    <meta property="og:title" content="Praise Tabernacle | RCCG Ogombo">
+    <meta
+        property="og:description"
+        content="A place of worship, prayer, faith and fellowship."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image%20copy.png">
+
+    <link rel="icon" type="image/png" href="./image.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- SOCIAL MEDIA BAR -->
+    <div class="social-bar">
+        <div class="social-container">
+
+            <p>Connect with us</p>
+
+            <div class="social-links">
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on YouTube"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
+                    </svg>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/rccgpraise_tabernacle?rpxt=cnludXM5azhka2R0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on Instagram"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"/>
+                    </svg>
+                </a>
+
+                <a
+                    href="https://www.facebook.com/rccgptogombo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Praise Tabernacle on Facebook"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V4a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a href="homepage.html" class="brand">
+                <img
+                    src="./image.png"
+                    alt="Redeemed Christian Church of God logo"
+                    class="church-logo"
+                >
+
+                <div class="brand-text">
+                    <h1>Praise Tabernacle</h1>
+                    <span>RCCG Ogombo, Lagos</span>
+                </div>
+            </a>
+
+            <!-- MOBILE MENU TOGGLE -->
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- MAIN NAVIGATION -->
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+
+                <a href="homepage.html" class="nav-link active" aria-current="page">Home</a>
+
+                <a href="about.html" class="nav-link">About</a>
+
+                <div class="nav-dropdown-wrap">
+                    <button
+                        class="nav-link nav-dropdown-toggle"
+                        type="button"
+                        aria-expanded="false"
+                        aria-controls="watch-events-dropdown"
+                        aria-haspopup="true"
+                    >
+                        <span>Watch &amp; Events</span>
+                        <svg class="nav-dropdown-chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <div class="nav-dropdown" id="watch-events-dropdown">
+                        <a href="watch-events.html">Watch &amp; Events Overview</a>
+                        <a href="watch-events.html#watch-online">Watch Online</a>
+                        <a href="watch-events.html#catch-up">Catch Up</a>
+                        <a href="watch-events.html#service-schedule">Service Schedule</a>
+                        <a href="watch-events.html#upcoming-events">Upcoming Events</a>
+                    </div>
+                </div>
+
+                <a href="contacts.html" class="nav-link">Contact</a>
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    class="nav-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Watch Live
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- EVENT IMAGE CAROUSEL -->
+        <!--
+            TO ADD A SLIDE: duplicate one complete <article class="carousel-slide"> block.
+            TO USE A REAL PHOTO: replace the <div class="carousel-placeholder ..."> element
+            with:
+                <img src="your-event-photo.jpg" alt="Description of the event">
+            The arrows, dots, autoplay and swipe gestures are generated automatically.
+        -->
+        <section class="event-carousel-section" aria-label="Church event photo highlights">
+
+            <div class="section-container">
+
+                <div
+                    class="event-carousel"
+                    data-carousel
+                    tabindex="0"
+                    aria-roledescription="carousel"
+                    aria-label="Photos from previous and upcoming church events"
+                >
+
+                    <div class="carousel-viewport">
+
+                        <div class="carousel-track" data-carousel-track>
+
+                            <article
+                                class="carousel-slide"
+                                aria-roledescription="slide"
+                                aria-label="Slide 1 of 5"
+                            >
+                                <div class="carousel-placeholder carousel-theme-1">
+                                    <span class="carousel-number">01</span>
+                                    <span class="carousel-kicker">EVENT PHOTO 1</span>
+                                    <p class="carousel-placeholder-title">Church event photo</p>
+                                    <p class="carousel-placeholder-note">
+                                        Replace this slide with a picture from a previous or upcoming event.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article
+                                class="carousel-slide"
+                                aria-roledescription="slide"
+                                aria-label="Slide 2 of 5"
+                            >
+                                <div class="carousel-placeholder carousel-theme-2">
+                                    <span class="carousel-number">02</span>
+                                    <span class="carousel-kicker">EVENT PHOTO 2</span>
+                                    <p class="carousel-placeholder-title">Church event photo</p>
+                                    <p class="carousel-placeholder-note">
+                                        Replace this slide with a picture from a previous or upcoming event.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article
+                                class="carousel-slide"
+                                aria-roledescription="slide"
+                                aria-label="Slide 3 of 5"
+                            >
+                                <div class="carousel-placeholder carousel-theme-3">
+                                    <span class="carousel-number">03</span>
+                                    <span class="carousel-kicker">EVENT PHOTO 3</span>
+                                    <p class="carousel-placeholder-title">Church event photo</p>
+                                    <p class="carousel-placeholder-note">
+                                        Replace this slide with a picture from a previous or upcoming event.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article
+                                class="carousel-slide"
+                                aria-roledescription="slide"
+                                aria-label="Slide 4 of 5"
+                            >
+                                <div class="carousel-placeholder carousel-theme-4">
+                                    <span class="carousel-number">04</span>
+                                    <span class="carousel-kicker">EVENT PHOTO 4</span>
+                                    <p class="carousel-placeholder-title">Church event photo</p>
+                                    <p class="carousel-placeholder-note">
+                                        Replace this slide with a picture from a previous or upcoming event.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article
+                                class="carousel-slide"
+                                aria-roledescription="slide"
+                                aria-label="Slide 5 of 5"
+                            >
+                                <div class="carousel-placeholder carousel-theme-5">
+                                    <span class="carousel-number">05</span>
+                                    <span class="carousel-kicker">EVENT PHOTO 5</span>
+                                    <p class="carousel-placeholder-title">Church event photo</p>
+                                    <p class="carousel-placeholder-note">
+                                        Replace this slide with a picture from a previous or upcoming event.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <button
+                        class="carousel-arrow carousel-prev"
+                        type="button"
+                        data-carousel-prev
+                        aria-label="Show previous event photo"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <button
+                        class="carousel-arrow carousel-next"
+                        type="button"
+                        data-carousel-next
+                        aria-label="Show next event photo"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <div class="carousel-dots" data-carousel-dots></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+
+            <img
+                src="./image copy.png"
+                alt="A congregation gathered together in worship"
+                class="hero-image"
+                fetchpriority="high"
+            >
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-label">REDEEMED CHRISTIAN CHURCH OF GOD</p>
+
+                <h2>
+                    Welcome to <span>Praise Tabernacle</span>
+                </h2>
+
+                <p class="hero-description">
+                    A place of worship, prayer, faith and fellowship.
+                    Come experience God's presence and grow with us.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="about.html" class="button button-gold">
+                        Discover Our Church
+                    </a>
+
+                    <a
+                        href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-outline"
+                    >
+                        Watch Live
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-line"></div>
+
+        </section>
+
+
+        <!-- WELCOME SECTION -->
+        <section class="welcome-section">
+
+            <div class="section-container welcome-content">
+
+                <div class="welcome-text">
+
+                    <p class="section-label">WELCOME TO OUR CHURCH</p>
+
+                    <h2>
+                        Growing Together in
+                        <span>Faith and Love</span>
+                    </h2>
+
+                    <p>
+                        Welcome to Praise Tabernacle, a parish of the
+                        Redeemed Christian Church of God. We are a
+                        community committed to worshipping God,
+                        studying His Word, praying together and
+                        building meaningful relationships.
+                    </p>
+
+                    <p>
+                        Whether you are visiting for the first time
+                        or looking for a church family, you are welcome
+                        here.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        Learn More About Us →
+                    </a>
+
+                </div>
+
+                <div class="welcome-image">
+                    <img
+                        src="./image copy.png"
+                        alt="Members of a church congregation worshipping together"
+                        loading="lazy"
+                    >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICE INFORMATION -->
+        <section class="service-section" id="service-schedule">
+
+            <div class="section-container">
+
+                <h2 class="service-heading">Our Services</h2>
+
+                <div class="service-categories">
+
+                    <!-- SUNDAY SERVICES -->
+                    <!-- Replace each placeholder name and time with the confirmed details. -->
+                    <article class="service-category">
+
+                        <span class="service-rule" aria-hidden="true"></span>
+
+                        <h3>Sunday</h3>
+
+                        <ul class="service-list">
+                            <li>
+                                <span class="service-name">First service name to be added</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                            <li>
+                                <span class="service-name">Second service name to be added</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                            <li>
+                                <span class="service-name">Sunday school name to be added</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- WEEKDAY SERVICES -->
+                    <article class="service-category">
+
+                        <span class="service-rule" aria-hidden="true"></span>
+
+                        <h3>Weekdays</h3>
+
+                        <ul class="service-list">
+                            <li>
+                                <span class="service-name">Weekday service name to be added</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                            <li>
+                                <span class="service-name">Additional weekday service name</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- SPECIAL SERVICES -->
+                    <article class="service-category">
+
+                        <span class="service-rule" aria-hidden="true"></span>
+
+                        <h3>Special Services</h3>
+
+                        <ul class="service-list">
+                            <li>
+                                <span class="service-name">Special service name to be added</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                            <li>
+                                <span class="service-name">Additional special service name</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                            <li>
+                                <span class="service-name">Third special service name</span>
+                                <span class="service-separator" aria-hidden="true">&ndash;</span>
+                                <span class="service-time">Time to be confirmed</span>
+                            </li>
+                        </ul>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WATCH LIVE SECTION -->
+        <section class="watch-section">
+
+            <div class="section-container watch-content">
+
+                <div>
+                    <p class="section-label">WORSHIP WITH US ONLINE</p>
+
+                    <h2>
+                        Stay Connected.
+                        <span>Watch Live.</span>
+                    </h2>
+
+                    <p>
+                        Can't join us in person? You can still be part
+                        of our worship experience. Follow our YouTube
+                        channel to watch our services and stay connected
+                        with Praise Tabernacle.
+                    </p>
+
+                    <a
+                        href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-gold"
+                    >
+                        Visit Our YouTube Channel
+                    </a>
+                </div>
+
+                <!--
+                    LATEST SERVICE VIDEO CARD
+
+                    This card is filled automatically from the newest public
+                    upload returned by /api/youtube-videos. The static link and
+                    title below are the emergency fallback from CHURCH_VIDEOS
+                    in script.js.
+
+                    The page never links this card to the channel homepage; it
+                    always opens one individual service video.
+                -->
+                <a
+                    class="watch-video-card"
+                    id="latest-sermon-card"
+                    href="https://www.youtube.com/watch?v=P45xzgpjUAI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-latest-video
+                    data-video-id="P45xzgpjUAI"
+                >
+                    <div class="watch-video-thumb">
+
+                        <img
+                            class="watch-video-image"
+                            data-video-thumbnail
+                            alt=""
+                            hidden
+                        >
+
+                        <div class="watch-video-fallback" data-video-fallback>
+                            <span class="watch-video-badge">LATEST VIDEO</span>
+                            <span class="watch-video-fallback-title">Latest sermon thumbnail</span>
+                            <span class="watch-video-fallback-note">
+                                The newest service will appear here automatically.
+                            </span>
+                        </div>
+
+                        <span class="watch-video-play" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </span>
+
+                    </div>
+
+                    <div class="watch-video-caption">
+                        <span class="watch-video-caption-label">WATCH ON YOUTUBE</span>
+                        <span class="watch-video-caption-title" data-video-title>
+                            Visit our YouTube channel
+                        </span>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+        <section class="visit-section">
+
+            <div class="section-container visit-content">
+
+                <p class="section-label">YOU ARE WELCOME HERE</p>
+
+                <h2>We Look Forward to Worshipping With You</h2>
+
+                <p>
+                    Come as you are. We would love to welcome you
+                    into our church family.
+                </p>
+
+                <a href="contacts.html" class="button button-gold">
+                    Get in Touch
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="section-container footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-brand-identity">
+
+                    <img
+                        src="./image.png"
+                        alt=""
+                        class="footer-logo"
+                        loading="lazy"
+                    >
+
+                    <div>
+                        <h2>Praise Tabernacle</h2>
+                        <p>RCCG Ogombo, Lagos</p>
+                    </div>
+
+                </div>
+
+                <!--
+                    CHURCH ADDRESS PLACEHOLDER
+                    Replace the two lines below with the confirmed church address.
+                -->
+                <address class="footer-address">
+                    <span class="footer-address-icon" aria-hidden="true">⌖</span>
+                    <span>
+                        Ogunremi Street, Ogombo,<br>
+                        Eti-Osa, Lagos, Nigeria.
+                    </span>
+                </address>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="homepage.html" class="active" aria-current="page">Home</a>
+                <a href="about.html">About</a>
+                <a href="watch-events.html">Watch &amp; Events</a>
+                <a href="contacts.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Connect With Us</h3>
+
+                <a
+                    href="https://youtube.com/@praisetabernacleogombo?si=vo1RauWNle8k1B4t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    YouTube
+                </a>
+
+                <a
+                    href="https://www.instagram.com/rccgpraise_tabernacle?rpxt=cnludXM5azhka2R0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
+
+                <a
+                    href="https://www.facebook.com/rccgptogombo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="current-year"></span>
+                Praise Tabernacle, RCCG Ogombo. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="./script.js"></script>
+
+</body>
+</html>

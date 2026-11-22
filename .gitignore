@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Local development data
+.dev/
+
+# Deployment metadata
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
